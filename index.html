@@ -25,7 +25,166 @@
 <body>
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+
+  <header>
+    <div class="content-wrapper">
+      <nav>
+        <ul>
+          <li><a href="#work">projects</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#contact" id="contact-link">contact me</a></li>
+        </ul>
+      </nav>
+      <div class="home-title">
+        <h1>Hi there, I'm Matthew Gault!</h1>
+        <h2>I'm an aspiring Full Stack Developer who creates beautiful, memorable websites in Brownsville, TX.</h2>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="portfolio">
+      <section id="work">
+        <div class="content-wrapper">
+          <h3 class="portfolio-header">Projects</h3>
+          <div class="portfolio-wrapper">
+            <div class="home-portfolio-piece">
+              <figure>
+                <a href="https://blazegamer625.github.io/coding-responsive-rogue-pickings-01/" target="_blank"><img src="img/rogue-pickings.jpg"
+                    alt="Rogue Pickings"></a>
+              </figure>
+              <h4>Rogue Pickings</h4>
+              <p class="project-description">A simple homepage perfect for a food truck or restaurant that has been styled with CSS. This homepage was originally a static website, I later on converted it to a responsive webpage using Flexbox.</p>
+              <p><span>Skills: </span>HTML, CSS, Flexbox</p>
+              <p class="flex-fill"><span>Tools: </span>Chrome DevTools, GitHub Pages</p>
+              <a class="project-link" href="https://blazegamer625.github.io/coding-responsive-rogue-pickings-01/" target="_blank">live page</a>
+            </div>
+            <div class="home-portfolio-piece">
+              <figure>
+                <a href="https://blazegamer625.github.io/unplugged-website/" target="_blank"><img
+                    src="img/unplugged.jpg" alt="Unplugged"></a>
+              </figure>
+              <h4>Unplugged</h4>
+              <p class="project-description">A multi-page responsive website coded with HTML, CSS, and Flexbox. This versatile design has several sections, including a Cards design pattern, that can be repurposed for different sites.</p>
+              <p><span>Skills: </span>HTML, CSS, Flexbox</p>
+              <p class="flex-fill"><span>Tools: </span>Chrome DevTools, GitHub Pages</p>
+              <a class="project-link" href="https://blazegamer625.github.io/unplugged-website/" target="_blank">live
+                page</a>
+            </div>
+            <div class="home-portfolio-piece">
+              <figure>
+                <a href="https://blazegamer625.github.io/guess-the-word-main/" target="_blank"><img
+                    src="img/guess-word.jpg" alt="Guess the Word Game"></a>
+              </figure>
+              <h4>Guess the Word Game</h4>
+              <p class="project-description">Players guess the word by entering one letter at a time. If the player guesses all the letters correctly before they use up their allotted guesses, they win the game.</p>
+              <p><span>Skills: </span>HTML, CSS, JavaScript</p>
+              <p class="flex-fill"><span>Tools: </span>GitHub Pages, JSON</p>
+              <a class="project-link" href="https://blazegamer625.github.io/guess-the-word-main/" target="_blank">live page</a>
+            </div>
+            <div class="home-portfolio-piece">
+              <figure>
+                <a href="https://utrgv-software-engineering.github.io/rails-gradebook-2023-team-305/" target="_blank"><img
+                    src="img/gradebook.jpg" alt="Rails Gradebook"></a>
+              </figure>
+              <h4>Rails Gradebook</h4>
+              <p class="project-description">Final exam project for Software Engineering 1 where we exercised an Agile approach to create tests and fix coding errors within the project using Ruby. The project consisted of four team members that each documented identified errors, any code changes made, and accepted pull requests.</p>
+              <p><span>Skills: </span>HTML, CSS, JavaScript, Ruby</p>
+              <p class="flex-fill"><span>Tools: </span>GitHub Pages, Sinatra, Ruby on Rails, Agile Methodology</p>
+              <a class="project-link" href="https://utrgv-software-engineering.github.io/rails-gradebook-2023-team-305/" target="_blank">live
+                page</a>
+            </div>
+            <div class="home-portfolio-piece">
+              <figure>
+                <a href="https://github.com/BlazeGamer625/cs1-project" target="_blank"><img
+                    src="img/ticket-manager.jpg" alt="Ticket Manager"></a>
+              </figure>
+              <h4>Ticket Manager</h4>
+              <p class="project-description">Final exam project for Computer Science 1 where we created a program that read a text file and used classes to output the cost for purchasing tickets in a movie theater using C++.</p>
+              <p><span>Skills: </span>C++</p>
+              <p class="flex-fill"><span>Tools: </span>GitHub Pages, Visual Studio IDE</p>
+              <a class="project-link" href="https://github.com/BlazeGamer625/cs1-project"
+                target="_blank">live
+                page</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="content-wrapper">
+          <h3 class="skills-header">Skills</h3>
+          <h4>Developer Skills</h4>
+          <div class="language-wrapper">
+            <p class="skill">HTML and CSS</p>
+            <p class="skill">JavaScript</p>
+            <p class="skill">C++</p>
+            <p class="skill">Responsive web development</p>
+            <p class="skill">Java</p>
+            <p class="skill">Git and GitHub</p>
+          </div>
+          <h4>Tech Stack</h4>
+          <div class="tool-wrapper">
+            <p class="tool">Chrome DevTools</p>
+            <p class="tool">GitHub Pages</p>
+            <p class="tool">Agile Methodology</p>
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <section id="about">
+      <div class="content-wrapper">
+        <div class="about-content-wrapper">
+          <figure>
+            <img src="img/selfie.jpg" alt="Picture of me with a blow-up turkey during Thanksgiving" id="profile-image">
+          </figure>
+          <div class="about-info">
+            <h3>Hi! I'm Matthew Gault.</h3>
+            <h4>I'm an aspiring Full Stack Developer with a passion for creating clean, responsive websites and coding C++ and Java.</h4>
+            <p class="about-text">UTRGV transfer student with proven leadership and professional responsibility through school band and 
+              clubs including Texas A&M Healthy South Texas, Green Team, AP Physics Club, NASA Community College Aerospace Scholar, and 
+              the New Space Entrepreneurial Academy. Organizational leadership involvement built proven communication and presentation 
+              skills that promote teamwork and enthusiasm. Actively seeking an internship for the summer of 2023 that supplies learning 
+              opportunities for technically minded and analytical students.
+            </p>
+            <p><span>Can't wait to work with you!</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="content-wrapper">
+      <h3>Let's Connect</h3>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h5 class="contact-title">Hire me</h5>
+          <p>956-266-1805</p>
+          <p>mjgault519@gmail.com</p>
+        </div>
+        <div class="contact-info follow-section">
+          <h5 class="contact-title">Follow me</h5>
+          <ul class="social-icons">
+            <li><a href="https://www.linkedin.com/in/matthew-gault-155482290/" target="_blank"><i
+                  class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li><a href="https://github.com/BlazeGamer625" target="_blank"><i class="fab fa-github"></i></a></li>
+          </ul>
+        </div>
+        <div class="contact-info">
+          <h5 class="contact-title">Meet me</h5>
+          <p>Brownsville, TX</p>
+          <p>Let's go to meetups together!</p>
+        </div>
+      </div>
+      <p>Copyright
+        <script>document.write(new Date().getFullYear())</script>2023 | Matthew Gault
+      </p>
+    </div>
+  </footer>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
